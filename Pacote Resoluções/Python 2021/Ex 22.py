@@ -1,0 +1,10 @@
+name=str(input('Qual o seu nome?: ').strip())
+print(f'Seu nome é {name}')
+print(f'Em caixa alta seu nome fica {name.upper()}')
+print(f'Em caixa baixa seu nome fica {name.lower()}')
+namews=name.replace(' ','')
+#print(namews)
+print(f'Seu nome tem {len(namews)} ')
+firstname=name.split()
+print(f'A primeira palavra do seu nome tem {len(firstname[0])}')
+

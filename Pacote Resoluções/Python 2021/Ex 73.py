@@ -1,0 +1,5 @@
+time=('Flamengo','Santos','Palmeiras','Gremio','Atletico Paranaense','São Paulo','Internacional','Corinthians','Fortaleza','Goiais','Bahia','Vasco','Atletico Mineiro','Fluminese','Botafogo','Ceara','Cruzeiro','CSA','Chapecoense','Avai')
+print(f'O quatro primeiros colocados foram {time[0:4]}')
+print(f'Os ultimos colocados foram {time[16:20]}')
+print(f'A ordem alfabeica da tupla é {sorted(time)}')
+print('O time da chapeconse se encontra na posição {}'.format(time.index('Chapecoense')))

@@ -1,0 +1,2 @@
+t=int(input('Você gostaria de ter saber qual tabuada?: '))
+print(f'A tabuada que você escolheu foi do numero : {t} \n1 * {t} = {1*t} \n2 * {t} = {2*t} \n3 * {t} = {3*t} \n4 * {t} = {4*t} \n5 * {t} = {5*t} \n6 * {t} = {6*t} \n7 * {t} = {7*t} \n8 * {t} = {8*t} \n9 * {t} = {9*t}')

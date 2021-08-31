@@ -1,0 +1,5 @@
+name=str(input('Digite sue nome: '))
+namesplit=name.split()
+print(f'Seu nome é {name}')
+print(f'Seu primeiro nome é {namesplit[0]}')
+print(f'Seu ultimo nome é {namesplit[-1]}')

@@ -1,0 +1,19 @@
+v=int(input('Qual o valor que você deseja sacar R$'))
+valor=v
+atual = 50
+c=0
+while True:
+    if atual <= valor:
+        valor-=atual
+        c+=1
+    else:
+        print(f'Você receberá {c} notas de {atual}')
+        if valor == 0:
+            break
+        elif atual == 50:
+            atual = 20
+        elif atual == 20:
+            atual=10
+        elif atual == 10:
+            atual = 1
+        c=0
